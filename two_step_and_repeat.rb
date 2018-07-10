@@ -53,7 +53,7 @@ end
 def break_dance
   # Write a solution that uses the same code as how_many_steps?, but breaks the
   # loop if steps is equal to 6
-  steps=0
+  steps=1
   loop do
     puts "#{steps}"
     if (steps%2==0)
@@ -63,7 +63,7 @@ def break_dance
   end 
     steps+=1
     sleep(0.5)
-    if steps==6
+    if steps==7
       break
     end 
   end
